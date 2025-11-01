@@ -1,0 +1,1 @@
+RoomNo:1, IsLabRoom:No, Capacity:45, Equipments:hg , Days:, Times:

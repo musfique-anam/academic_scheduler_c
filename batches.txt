@@ -1,0 +1,2 @@
+Name:SE-24th, CourseCount:3, Courses:CSE-1101 CSE-1102  
+Name:3, CourseCount:5, Courses:cse cfr cds gff sff 

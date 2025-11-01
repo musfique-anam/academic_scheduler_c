@@ -1,0 +1,6 @@
+Name:Md Arif Hasan, Dept:CSE, ID:001, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01575111755, Email:mdarifhasan.pub@gmail.com
+Name:Anonto, Dept:CSE, ID:03, Position:ASST. Prof, MaxCourses:2, MaxCredits:6, Phone:820130243, Email:anonto.pub@gmail.com
+Name:Nahid, Dept:BBA, ID:4, Position:LEC, MaxCourses:1, MaxCredits:3, Phone:02655665, Email:adsfasd
+Name:Rafi Ahmed, Dept:Bangla, ID:001, Position:Lecturer, MaxCourses:3, MaxCredits:10, Phone:01820130243, Email:rafi.pub@gmsil.com
+Name:Nahid Hasan, Dept:CSE, ID:032145, Position:lectutr, MaxCourses:2, MaxCredits:5, Phone:01869069156, Email:nahid@gmail.com
+Name:Juwel, Dept:CSE, ID:031456, Position:lecturer, MaxCourses:1, MaxCredits:4, Phone:01852469652[3~, Email:mann@gmial.com
