@@ -1,2 +1,2 @@
-Name:SE-01, CourseCount:3, Courses:CSE-1101 CSE-1102 CSE-1103
-Name:SE-02, CourseCount:2, Courses:CSE-1101 CSE-1102
+Name:SE-01, CourseCount:3, Courses:CSE-1101 CSE-1102 CSE-1103 
+Name:SE-02, CourseCount:2, Courses:CSE-1101 CSE-1102 

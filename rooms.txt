@@ -1,2 +1,2 @@
-RoomNo:101, IsLabRoom:No, Capacity:30, Equipments:Projector, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
-RoomNo:Lab1, IsLabRoom:Yes, Capacity:20, Equipments:PC, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:101, IsLabRoom:No, Capacity:30, Equipments:Projector , Days:Saturday Sunday Monday , Times:10:00 12:00 14:00 
+RoomNo:Lab1, IsLabRoom:Yes, Capacity:20, Equipments:PC , Days:Saturday Sunday Monday , Times:10:00 12:00 14:00 
