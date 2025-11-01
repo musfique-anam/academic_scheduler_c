@@ -1,2 +1,7 @@
 Day       Timeslot   Batch    Course          Teacher         Room
 ---------------------------------------------------------------
+Saturday   10:00      SE-01    Data Structures Nahid Hasan     101     
+Saturday   12:00      SE-01    Algorithms      Md Arif Hasan   101     
+Saturday   14:00      SE-01    Programming     Md Arif Hasan   Lab1    
+Sunday     10:00      SE-02    Data Structures Nahid Hasan     101     
+Sunday     12:00      SE-02    Algorithms      Md Arif Hasan   101     
