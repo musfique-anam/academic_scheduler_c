@@ -1,6 +1,50 @@
 Name:Md Arif Hasan, Dept:CSE, ID:001, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01575111755, Email:mdarifhasan.pub@gmail.com
-Name:Anonto, Dept:CSE, ID:03, Position:ASST. Prof, MaxCourses:2, MaxCredits:6, Phone:820130243, Email:anonto.pub@gmail.com
-Name:Nahid, Dept:BBA, ID:4, Position:LEC, MaxCourses:1, MaxCredits:3, Phone:02655665, Email:adsfasd
-Name:Rafi Ahmed, Dept:Bangla, ID:001, Position:Lecturer, MaxCourses:3, MaxCredits:10, Phone:01820130243, Email:rafi.pub@gmsil.com
-Name:Nahid Hasan, Dept:CSE, ID:032145, Position:lectutr, MaxCourses:2, MaxCredits:5, Phone:01869069156, Email:nahid@gmail.com
-Name:Juwel, Dept:CSE, ID:031456, Position:lecturer, MaxCourses:1, MaxCredits:4, Phone:01852469652[3~, Email:mann@gmial.com
+Name:Ms. Fatema Akter, Dept:CSE, ID:002, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01711112222, Email:fatema.akter.pub@gmail.com
+Name:Mr. Nahid Hasan, Dept:CSE, ID:003, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01822223333, Email:nahid.hasan.pub@gmail.com
+Name:Mr. Rahman, Dept:CSE, ID:004, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01933334444, Email:rahman.pub@gmail.com
+Name:Mr. Karim, Dept:CSE, ID:005, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01644445555, Email:karim.pub@gmail.com
+Name:Ms. Jannat Ara, Dept:CSE, ID:006, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01755556666, Email:jannat.ara.pub@gmail.com
+Name:Md. Hasan Ali, Dept:CSE, ID:007, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01866667777, Email:hasan.ali.pub@gmail.com
+Name:Ms. Laila Khan, Dept:CSE, ID:008, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01977778888, Email:laila.khan.pub@gmail.com
+Name:Md. Arman Hossain, Dept:CSE, ID:009, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01588889999, Email:arman.hossain.pub@gmail.com
+Name:Ms. Sumaiya Akter, Dept:CSE, ID:010, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01699990000, Email:sumaiya.akter.pub@gmail.com
+Name:Md. Shahidul Islam, Dept:CSE, ID:011, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01711112233, Email:shahidul.islam.pub@gmail.com
+Name:Ms. Rina Akhter, Dept:CSE, ID:012, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01822223344, Email:rina.akhter.pub@gmail.com
+Name:Md. Faysal Ahmed, Dept:CSE, ID:013, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01933334455, Email:faysal.ahmed.pub@gmail.com
+Name:Ms. Nadia Parveen, Dept:CSE, ID:014, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01544445566, Email:nadia.parveen.pub@gmail.com
+Name:Md. Shakil Khan, Dept:CSE, ID:015, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01655556677, Email:shakil.khan.pub@gmail.com
+Name:Ms. Farzana Begum, Dept:CSE, ID:016, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01766667788, Email:farzana.begum.pub@gmail.com
+Name:Md. Imran Hossain, Dept:CSE, ID:017, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01877778899, Email:imran.hossain.pub@gmail.com
+Name:Ms. Tasnim Akter, Dept:CSE, ID:018, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01988889900, Email:tasnim.akter.pub@gmail.com
+Name:Md. Rezaul Karim, Dept:CSE, ID:019, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01599990011, Email:rezaul.karim.pub@gmail.com
+Name:Ms. Nabila Chowdhury, Dept:CSE, ID:020, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01611112222, Email:nabila.chowdhury.pub@gmail.com
+Name:Md. Arifur Rahman, Dept:CSE, ID:021, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01722223333, Email:arifur.rahman.pub@gmail.com
+Name:Ms. Sohana Akter, Dept:CSE, ID:022, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01833334444, Email:sohana.akter.pub@gmail.com
+Name:Md. Tanvir Hossain, Dept:CSE, ID:023, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01944445555, Email:tanvir.hossain.pub@gmail.com
+Name:Ms. Roksana Begum, Dept:CSE, ID:024, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01555556666, Email:roksana.begum.pub@gmail.com
+Name:Md. Shafiq Ahmed, Dept:CSE, ID:025, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01666667777, Email:shafiq.ahmed.pub@gmail.com
+Name:Ms. Sumaiya Khan, Dept:CSE, ID:026, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01777778888, Email:sumaiya.khan.pub@gmail.com
+Name:Md. Faisal Hossain, Dept:CSE, ID:027, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01888889999, Email:faisal.hossain.pub@gmail.com
+Name:Ms. Marzia Akter, Dept:CSE, ID:028, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01999990000, Email:marzia.akter.pub@gmail.com
+Name:Md. Kamal Uddin, Dept:CSE, ID:029, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01511112233, Email:kamal.uddin.pub@gmail.com
+Name:Ms. Tanjina Akhter, Dept:CSE, ID:030, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01622223344, Email:tanjina.akhter.pub@gmail.com
+Name:Md. Hasanuzzaman, Dept:CSE, ID:031, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01733334455, Email:hasanuzzaman.pub@gmail.com
+Name:Ms. Nargis Akter, Dept:CSE, ID:032, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01844445566, Email:nargis.akter.pub@gmail.com
+Name:Md. Ariful Islam, Dept:CSE, ID:033, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01955556677, Email:ariful.islam.pub@gmail.com
+Name:Ms. Farhana Akter, Dept:CSE, ID:034, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01566667788, Email:farhana.akter.pub@gmail.com
+Name:Md. Tareq Ahmed, Dept:CSE, ID:035, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01677778899, Email:tareq.ahmed.pub@gmail.com
+Name:Ms. Nusrat Jahan, Dept:CSE, ID:036, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01788889900, Email:nusrat.jahan.pub@gmail.com
+Name:Md. Rakib Hossain, Dept:CSE, ID:037, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01899990011, Email:rakib.hossain.pub@gmail.com
+Name:Ms. Sabina Akter, Dept:CSE, ID:038, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01911112222, Email:sabina.akter.pub@gmail.com
+Name:Md. Imtiaz Uddin, Dept:CSE, ID:039, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01522223333, Email:imtiaz.uddin.pub@gmail.com
+Name:Ms. Rupa Akter, Dept:CSE, ID:040, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01633334444, Email:rupa.akter.pub@gmail.com
+Name:Md. Shafiul Islam, Dept:CSE, ID:041, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01744445555, Email:shafiul.islam.pub@gmail.com
+Name:Ms. Tania Begum, Dept:CSE, ID:042, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01855556666, Email:tania.begum.pub@gmail.com
+Name:Md. Imran Karim, Dept:CSE, ID:043, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01966667777, Email:imran.karim.pub@gmail.com
+Name:Ms. Rina Akter, Dept:CSE, ID:044, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01577778888, Email:rina.akter.pub@gmail.com
+Name:Md. Farhad Hossain, Dept:CSE, ID:045, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01688889999, Email:farhad.hossain.pub@gmail.com
+Name:Ms. Anika Akter, Dept:CSE, ID:046, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01799990000, Email:anika.akter.pub@gmail.com
+Name:Md. Sajidul Islam, Dept:CSE, ID:047, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01811112233, Email:sajidul.islam.pub@gmail.com
+Name:Ms. Tamanna Jahan, Dept:CSE, ID:048, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01922223344, Email:tamanna.jahan.pub@gmail.com
+Name:Md. Arifur Rahman, Dept:CSE, ID:049, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01533334455, Email:arifur.rahman.pub@gmail.com
+Name:Ms. Sharmin Akter, Dept:CSE, ID:050, Position:Lecturer, MaxCourses:2, MaxCredits:12, Phone:01644445566, Email:sharmin.akter.pub@gmail.com

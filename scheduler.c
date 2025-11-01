@@ -22,15 +22,22 @@ void generateClassRoutine() {
         return;
     }
 
-    fprintf(fp, "📅 Class Routine\n\n");
+    // Table header
+    fprintf(fp, "Day       Timeslot   Batch    Course          Teacher         Room\n");
+    fprintf(fp, "---------------------------------------------------------------\n");
+
+    const char *days[] = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"};
+    const char *timeSlots[] = {"10:00-11:30", "11:30-13:00", "14:00-15:30", "15:30-17:00"};
+    int numDays = 6;
+    int numSlots = 4;
+    int dayIdx = 0, slotIdx = 0;
 
     for (int b = 0; b < numBatches; b++) {
-        fprintf(fp, "Batch: %s\n", batches[b].name);
-
         for (int c = 0; c < batches[b].courseCount && c < MAX_COURSES_PER_BATCH; c++) {
+
             char *courseCode = batches[b].courseCodes[c];
 
-            // Find course details
+            // Find course
             Course *course = NULL;
             for (int i = 0; i < numCourses; i++) {
                 if (strcmp(courses[i].code, courseCode) == 0) {
@@ -38,10 +45,9 @@ void generateClassRoutine() {
                     break;
                 }
             }
-
             if (!course) continue;
 
-            // Assign teacher
+            // Find teacher
             Teacher *teacher = NULL;
             for (int t = 0; t < numTeachers; t++) {
                 if (strcmp(teachers[t].name, course->teacherName) == 0) {
@@ -50,7 +56,7 @@ void generateClassRoutine() {
                 }
             }
 
-            // Assign room
+            // Find room
             Room *room = NULL;
             for (int r = 0; r < numRooms; r++) {
                 if (course->isLab && rooms[r].isLabRoom) {
@@ -62,47 +68,34 @@ void generateClassRoutine() {
                 }
             }
 
-            // Generate schedule (dummy example: day and time assigned sequentially)
+            // Fill schedule struct
             Schedule s;
             memset(&s, 0, sizeof(Schedule));
-
             strncpy(s.courseCode, course->code, MAX_COURSE_CODE_LEN - 1);
-            s.courseCode[MAX_COURSE_CODE_LEN - 1] = '\0';
-
             strncpy(s.batch, batches[b].name, MAX_BATCH_NAME_LEN - 1);
-            s.batch[MAX_BATCH_NAME_LEN - 1] = '\0';
-
-            strncpy(s.day, "Saturday", MAX_DAY_LEN - 1); // For now, assign Saturday
-            s.day[MAX_DAY_LEN - 1] = '\0';
-
-            strncpy(s.startTime, "10:00", MAX_TIME_LEN - 1); // Dummy time
-            s.startTime[MAX_TIME_LEN - 1] = '\0';
-
-            if (room)
-                strncpy(s.roomNo, room->roomNo, MAX_ROOM_NO_LEN - 1);
-            else
-                strncpy(s.roomNo, "TBD", MAX_ROOM_NO_LEN - 1);
-            s.roomNo[MAX_ROOM_NO_LEN - 1] = '\0';
-
-            if (teacher)
-                strncpy(s.teacher, teacher->name, MAX_TEACHER_NAME_LEN - 1);
-            else
-                strncpy(s.teacher, "TBD", MAX_TEACHER_NAME_LEN - 1);
-            s.teacher[MAX_TEACHER_NAME_LEN - 1] = '\0';
-
-            s.isExam = 0;
+            strncpy(s.day, days[dayIdx], MAX_DAY_LEN - 1);
+            strncpy(s.startTime, timeSlots[slotIdx], MAX_TIME_LEN - 1);
+            if (room) strncpy(s.roomNo, room->roomNo, MAX_ROOM_NO_LEN - 1);
+            else strncpy(s.roomNo, "TBD", MAX_ROOM_NO_LEN - 1);
+            if (teacher) strncpy(s.teacher, teacher->name, MAX_TEACHER_NAME_LEN - 1);
+            else strncpy(s.teacher, "TBD", MAX_TEACHER_NAME_LEN - 1);
             s.isLab = course->isLab;
-            s.duration = course->credit; // Assume 1 credit = 1.5 hours (you can adjust)
+            s.duration = course->credit;
 
-            // Write to text file
-            fprintf(fp, "-----------------------------------------\n");
-            fprintf(fp, "Course: %s (%s)\nBatch: %s\nTeacher: %s\nRoom: %s\nDay: %s\nTime: %s\nDuration: %d hours\n",
-                    course->name, course->code, s.batch, s.teacher, s.roomNo, s.day, s.startTime, s.duration);
+            // Write to text file in table format
+            fprintf(fp, "%-10s %-10s %-8s %-15s %-15s %-5s\n",
+                    s.day, s.startTime, s.batch, course->name, s.teacher, s.roomNo);
 
             // Write to binary file
             fwrite(&s, sizeof(Schedule), 1, fpDat);
+
+            // Move to next slot/day
+            slotIdx++;
+            if (slotIdx >= numSlots) {
+                slotIdx = 0;
+                dayIdx = (dayIdx + 1) % numDays;
+            }
         }
-        fprintf(fp, "-----------------------------------------\n");
     }
 
     fclose(fp);

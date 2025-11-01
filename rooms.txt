@@ -1,1 +1,40 @@
-RoomNo:1, IsLabRoom:No, Capacity:45, Equipments:hg , Days:, Times:
+RoomNo:R101, IsLabRoom:No, Capacity:30, Equipments:Projector Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R102, IsLabRoom:No, Capacity:25, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R103, IsLabRoom:No, Capacity:40, Equipments:Projector , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab201, IsLabRoom:Yes, Capacity:20, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab202, IsLabRoom:Yes, Capacity:15, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R104, IsLabRoom:No, Capacity:35, Equipments:Projector Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R105, IsLabRoom:No, Capacity:30, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab203, IsLabRoom:Yes, Capacity:25, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R106, IsLabRoom:No, Capacity:20, Equipments:Projector , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R107, IsLabRoom:No, Capacity:40, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab204, IsLabRoom:Yes, Capacity:30, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R108, IsLabRoom:No, Capacity:35, Equipments:Projector Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R109, IsLabRoom:No, Capacity:25, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab205, IsLabRoom:Yes, Capacity:20, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R110, IsLabRoom:No, Capacity:30, Equipments:Projector , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R111, IsLabRoom:No, Capacity:40, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab206, IsLabRoom:Yes, Capacity:25, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R112, IsLabRoom:No, Capacity:35, Equipments:Projector Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R113, IsLabRoom:No, Capacity:30, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab207, IsLabRoom:Yes, Capacity:20, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R114, IsLabRoom:No, Capacity:25, Equipments:Projector , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R115, IsLabRoom:No, Capacity:40, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab208, IsLabRoom:Yes, Capacity:30, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R116, IsLabRoom:No, Capacity:35, Equipments:Projector Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R117, IsLabRoom:No, Capacity:25, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab209, IsLabRoom:Yes, Capacity:20, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R118, IsLabRoom:No, Capacity:30, Equipments:Projector , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R119, IsLabRoom:No, Capacity:40, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab210, IsLabRoom:Yes, Capacity:25, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R120, IsLabRoom:No, Capacity:35, Equipments:Projector Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R121, IsLabRoom:No, Capacity:30, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab211, IsLabRoom:Yes, Capacity:20, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R122, IsLabRoom:No, Capacity:25, Equipments:Projector , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R123, IsLabRoom:No, Capacity:40, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab212, IsLabRoom:Yes, Capacity:30, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R124, IsLabRoom:No, Capacity:35, Equipments:Projector Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R125, IsLabRoom:No, Capacity:30, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:Lab213, IsLabRoom:Yes, Capacity:20, Equipments:Computers , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R126, IsLabRoom:No, Capacity:25, Equipments:Projector , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
+RoomNo:R127, IsLabRoom:No, Capacity:40, Equipments:Whiteboard , Days:Saturday Sunday Monday Tuesday Wednesday , Times:08:00-10:010:00-12:012:00-14:00 10:00-12:012:00-14:00 12:00-14:00 
