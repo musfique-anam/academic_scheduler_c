@@ -1,6 +1,6 @@
 #ifndef EXAM_SCHEDULER_H
 #define EXAM_SCHEDULER_H
 
-void generateExamRoutine(void);
+void generateExamRoutineWithStartDate(const char *startDate);
 
 #endif // EXAM_SCHEDULER_H

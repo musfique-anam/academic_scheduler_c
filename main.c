@@ -9,6 +9,7 @@
 #include "exam_scheduler.h"
 #include "viewer.h"
 #include "save_txt.h"
+#include "conflict_resolver.h"
 
 // ------------------- PAUSE -------------------
 void pauseConsole()
@@ -111,14 +112,18 @@ void loadBatches()
     fclose(fp);
 }
 
-void loadRooms() {
+void loadRooms()
+{
     FILE *fp = fopen("rooms.txt", "r");
     numRooms = 0;
-    if (!fp) return;
+    if (!fp)
+        return;
 
     char line[1024];
-    while (fgets(line, sizeof(line), fp)) {
-        if (numRooms >= MAX_ROOMS) break;
+    while (fgets(line, sizeof(line), fp))
+    {
+        if (numRooms >= MAX_ROOMS)
+            break;
         Room *r = &rooms[numRooms];
 
         char lab[4], equipmentsStr[256] = {0}, daysStr[256] = {0}, timesStr[256] = {0};
@@ -130,7 +135,8 @@ void loadRooms() {
         // Equipments
         r->equipmentCount = 0;
         char *token = strtok(equipmentsStr, " ");
-        while (token && r->equipmentCount < MAX_EQUIPMENTS) {
+        while (token && r->equipmentCount < MAX_EQUIPMENTS)
+        {
             strcpy(r->equipments[r->equipmentCount++], token);
             token = strtok(NULL, " ");
         }
@@ -138,7 +144,8 @@ void loadRooms() {
         // Days
         r->availableDayCount = 0;
         token = strtok(daysStr, " ");
-        while (token && r->availableDayCount < MAX_DAYS) {
+        while (token && r->availableDayCount < MAX_DAYS)
+        {
             strcpy(r->availableDays[r->availableDayCount++], token);
             token = strtok(NULL, " ");
         }
@@ -146,7 +153,8 @@ void loadRooms() {
         // Times
         r->availableTimeCount = 0;
         token = strtok(timesStr, " ");
-        while (token && r->availableTimeCount < MAX_TIMESLOTS) {
+        while (token && r->availableTimeCount < MAX_TIMESLOTS)
+        {
             strcpy(r->availableTimes[r->availableTimeCount++], token);
             token = strtok(NULL, " ");
         }
@@ -156,6 +164,7 @@ void loadRooms() {
 
     fclose(fp);
 }
+
 // ==================== SAVERS ====================
 void saveTeachers()
 {
@@ -203,24 +212,31 @@ void saveBatches()
     fclose(fp);
 }
 
-void saveRooms() {
+void saveRooms()
+{
     FILE *fp = fopen("rooms.txt", "w");
-    if (!fp) return;
+    if (!fp)
+        return;
 
-    for (int i = 0; i < numRooms; i++) {
+    for (int i = 0; i < numRooms; i++)
+    {
         Room *r = &rooms[i];
         fprintf(fp, "RoomNo:%s, IsLabRoom:%s, Capacity:%d, Equipments:",
                 r->roomNo, r->isLabRoom ? "Yes" : "No", r->capacity);
-        for (int j = 0; j < r->equipmentCount; j++) fprintf(fp, "%s ", r->equipments[j]);
+        for (int j = 0; j < r->equipmentCount; j++)
+            fprintf(fp, "%s ", r->equipments[j]);
         fprintf(fp, ", Days:");
-        for (int j = 0; j < r->availableDayCount; j++) fprintf(fp, "%s ", r->availableDays[j]);
+        for (int j = 0; j < r->availableDayCount; j++)
+            fprintf(fp, "%s ", r->availableDays[j]);
         fprintf(fp, ", Times:");
-        for (int j = 0; j < r->availableTimeCount; j++) fprintf(fp, "%s ", r->availableTimes[j]);
+        for (int j = 0; j < r->availableTimeCount; j++)
+            fprintf(fp, "%s ", r->availableTimes[j]);
         fprintf(fp, "\n");
     }
 
     fclose(fp);
 }
+
 // ==================== LOAD / SAVE ALL ====================
 void loadAllData()
 {
@@ -245,14 +261,12 @@ int main()
 
     printf("\n ========================================= \n");
     printf("\n Welcome to Academic Scheduler! \n");
-    
-  
 
     int choice;
 
     while (1)
     {
-       
+        printf("\n==============================\n");
         printf("1. Teachers Menu\n");
         printf("2. Courses Menu\n");
         printf("3. Batches Menu\n");
@@ -263,6 +277,7 @@ int main()
         printf("8. Detect Conflicts\n");
         printf("9. Generate Exam Routine\n");
         printf("10. View Section\n");
+        printf("11. Resolve Conflicts\n");
         printf("0. Exit\n");
         printf("==============================\n");
         printf("Enter your choice: ");
@@ -369,7 +384,7 @@ int main()
             switch (conflictChoice)
             {
             case 1:
-                detectClassConflicts(); // fixed function name
+                detectClassConflicts();
                 break;
             case 2:
                 detectExamConflicts();
@@ -380,34 +395,57 @@ int main()
             break;
         }
         case 9:
-            generateExamRoutine();
+            char startDate[20];
+            printf("Enter exam start date (YYYY-MM-DD): ");
+            scanf("%s", startDate);
+            generateExamRoutineWithStartDate(startDate);
             break;
         case 10:
-            {
-    int viewChoice;
-    printf("\nSelect view option:\n");
-    printf("1. Teachers\n2. Courses\n3. Batches\n4. Rooms\n5. Teacher Assignments\n6. Batch Assignments\n");
-    printf("Enter choice: ");
-    scanf("%d", &viewChoice);
-    getchar();
+        {
+            int viewChoice;
+            printf("\nSelect view option:\n");
+            printf("1. Teachers\n2. Courses\n3. Batches\n4. Rooms\n5. Teacher Assignments\n6. Batch Assignments\n");
+            printf("Enter choice: ");
+            scanf("%d", &viewChoice);
+            getchar();
 
-    switch (viewChoice) {
-        case 1: viewTeachers(); break;
-        case 2: viewCourses(); break;
-        case 3: viewBatches(); break;
-        case 4: viewRooms(); break;
-        case 5: viewTeacherAssignments(); break;
-        case 6: viewBatchAssignments(); break;
-        default: printf("Invalid choice.\n");
-    }
-    break;
-}
+            switch (viewChoice)
+            {
+            case 1:
+                viewTeachers();
+                break;
+            case 2:
+                viewCourses();
+                break;
+            case 3:
+                viewBatches();
+                break;
+            case 4:
+                viewRooms();
+                break;
+            case 5:
+                viewTeacherAssignments();
+                break;
+            case 6:
+                viewBatchAssignments();
+                break;
+            default:
+                printf("Invalid choice.\n");
+            }
+            break;
+        }
+        case 11:
+            printf("\n--- Conflict Resolver ---\n");
+            resolveConflicts("schedule.dat", "routine.txt");         // class conflicts
+            resolveConflicts("exam_schedule.dat", "exam_routine.txt"); // exam conflicts
+            break;
+
         case 0:
             saveAllData();
             printf("Data saved. Exiting...\n");
             exit(0);
         default:
-            printf("Invalid choice! Enter 0-10.\n");
+            printf("Invalid choice! Enter 0-11.\n");
         }
 
         pauseConsole();
