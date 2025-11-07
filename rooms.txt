@@ -1,2 +1,54 @@
-RoomNo:101, IsLabRoom:No, Capacity:30, Equipments:Projector , Days:Saturday Sunday Monday , Times:10:00 12:00 14:00 
-RoomNo:Lab1, IsLabRoom:Yes, Capacity:20, Equipments:PC , Days:Saturday Sunday Monday , Times:10:00 12:00 14:00 
+RoomNo:101, IsLabRoom:No, Capacity:30, Equipments:Projector, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:102, IsLabRoom:No, Capacity:35, Equipments:Projector, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:103, IsLabRoom:No, Capacity:25, Equipments:Whiteboard, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:104, IsLabRoom:No, Capacity:40, Equipments:Projector, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:105, IsLabRoom:No, Capacity:45, Equipments:SmartBoard, Days:Saturday Sunday Monday, Times:08:30 10:30 12:30
+RoomNo:106, IsLabRoom:No, Capacity:30, Equipments:Projector, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:107, IsLabRoom:No, Capacity:40, Equipments:SoundSystem, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:108, IsLabRoom:No, Capacity:35, Equipments:Projector, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:109, IsLabRoom:No, Capacity:25, Equipments:Whiteboard, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:110, IsLabRoom:No, Capacity:30, Equipments:Projector, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+
+RoomNo:201, IsLabRoom:No, Capacity:40, Equipments:SmartBoard, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:202, IsLabRoom:No, Capacity:45, Equipments:Projector, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:203, IsLabRoom:No, Capacity:30, Equipments:Whiteboard, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:204, IsLabRoom:No, Capacity:25, Equipments:SoundSystem, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:205, IsLabRoom:No, Capacity:50, Equipments:Projector, Days:Saturday Sunday Monday, Times:08:30 10:30 12:30
+RoomNo:206, IsLabRoom:No, Capacity:35, Equipments:SmartBoard, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:207, IsLabRoom:No, Capacity:40, Equipments:Projector, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:208, IsLabRoom:No, Capacity:45, Equipments:Projector, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:209, IsLabRoom:No, Capacity:25, Equipments:Whiteboard, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:210, IsLabRoom:No, Capacity:30, Equipments:SmartBoard, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+
+RoomNo:Lab1, IsLabRoom:Yes, Capacity:20, Equipments:PC, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:Lab2, IsLabRoom:Yes, Capacity:25, Equipments:PC + ArduinoKit, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:Lab3, IsLabRoom:Yes, Capacity:18, Equipments:PC + IoTBoard, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:Lab4, IsLabRoom:Yes, Capacity:22, Equipments:PC + SensorKit, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:Lab5, IsLabRoom:Yes, Capacity:20, Equipments:PC + RoboticsSet, Days:Saturday Sunday Monday, Times:08:30 10:30 12:30
+RoomNo:Lab6, IsLabRoom:Yes, Capacity:25, Equipments:PC + NetworkSwitch, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:Lab7, IsLabRoom:Yes, Capacity:20, Equipments:PC + AIKit, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:Lab8, IsLabRoom:Yes, Capacity:30, Equipments:PC + MLKit, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:Lab9, IsLabRoom:Yes, Capacity:20, Equipments:PC + Microcontroller, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:Lab10, IsLabRoom:Yes, Capacity:25, Equipments:PC + NetworkTools, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+
+RoomNo:301, IsLabRoom:No, Capacity:35, Equipments:Projector, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:302, IsLabRoom:No, Capacity:25, Equipments:SmartBoard, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:303, IsLabRoom:No, Capacity:30, Equipments:Projector, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:304, IsLabRoom:No, Capacity:40, Equipments:Projector, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:305, IsLabRoom:No, Capacity:35, Equipments:Whiteboard, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:306, IsLabRoom:No, Capacity:25, Equipments:SmartBoard, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:307, IsLabRoom:No, Capacity:45, Equipments:Projector, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:308, IsLabRoom:No, Capacity:40, Equipments:SmartBoard, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:309, IsLabRoom:No, Capacity:30, Equipments:Projector, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:310, IsLabRoom:No, Capacity:35, Equipments:Whiteboard, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+
+RoomNo:Lab11, IsLabRoom:Yes, Capacity:20, Equipments:PC + GPU, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:Lab12, IsLabRoom:Yes, Capacity:22, Equipments:PC + Server, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:Lab13, IsLabRoom:Yes, Capacity:18, Equipments:PC + MicroprocessorKit, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:Lab14, IsLabRoom:Yes, Capacity:24, Equipments:PC + PLCModule, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:Lab15, IsLabRoom:Yes, Capacity:20, Equipments:PC + VRKit, Days:Saturday Sunday Monday, Times:08:30 10:30 12:30
+RoomNo:Lab16, IsLabRoom:Yes, Capacity:25, Equipments:PC + SimulationTools, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:Lab17, IsLabRoom:Yes, Capacity:20, Equipments:PC + EmbeddedKit, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00
+RoomNo:Lab18, IsLabRoom:Yes, Capacity:22, Equipments:PC + NetworkingKit, Days:Saturday Sunday Monday, Times:09:00 11:00 13:00
+RoomNo:Lab19, IsLabRoom:Yes, Capacity:18, Equipments:PC + AIChip, Days:Saturday Sunday Monday, Times:08:00 10:00 12:00
+RoomNo:Lab20, IsLabRoom:Yes, Capacity:25, Equipments:PC + IoTDevices, Days:Saturday Sunday Monday, Times:10:00 12:00 14:00

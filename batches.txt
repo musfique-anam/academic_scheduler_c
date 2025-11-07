@@ -1,2 +1,50 @@
-Name:SE-01, CourseCount:3, Courses:CSE-1101 CSE-1102 CSE-1103 
-Name:SE-02, CourseCount:2, Courses:CSE-1101 CSE-1102 
+Name:CSE-01, CourseCount:3, Courses:CSE-1101 CSE-1102 CSE-1103
+Name:CSE-02, CourseCount:2, Courses:CSE-1101 CSE-1102
+Name:CSE-03, CourseCount:3, Courses:CSE-1104 CSE-1105 CSE-1106
+Name:CSE-04, CourseCount:3, Courses:CSE-1107 CSE-1108 CSE-1109
+Name:CSE-05, CourseCount:2, Courses:CSE-1110 CSE-1111
+Name:CSE-06, CourseCount:3, Courses:CSE-1112 CSE-1113 CSE-1114
+Name:CSE-07, CourseCount:3, Courses:CSE-1115 CSE-1116 CSE-1117
+Name:CSE-08, CourseCount:2, Courses:CSE-1118 CSE-1119
+Name:CSE-09, CourseCount:3, Courses:CSE-1120 CSE-1121 CSE-1122
+Name:CSE-10, CourseCount:3, Courses:CSE-1123 CSE-1124 CSE-1125
+Name:CSE-11, CourseCount:3, Courses:CSE-1126 CSE-1127 CSE-1128
+Name:CSE-12, CourseCount:2, Courses:CSE-1129 CSE-1130
+Name:CSE-13, CourseCount:3, Courses:CSE-1131 CSE-1132 CSE-1133
+Name:CSE-14, CourseCount:3, Courses:CSE-1134 CSE-1135 CSE-1136
+Name:CSE-15, CourseCount:2, Courses:CSE-1137 CSE-1138
+Name:CSE-16, CourseCount:3, Courses:CSE-1139 CSE-1140 CSE-1141
+Name:CSE-17, CourseCount:3, Courses:CSE-1142 CSE-1143 CSE-1144
+Name:CSE-18, CourseCount:2, Courses:CSE-1145 CSE-1146
+Name:CSE-19, CourseCount:3, Courses:CSE-1147 CSE-1148 CSE-1149
+Name:CSE-20, CourseCount:3, Courses:CSE-1150 CSE-1151 CSE-1152
+Name:CSE-21, CourseCount:3, Courses:CSE-1153 CSE-1154 CSE-1155
+Name:CSE-22, CourseCount:2, Courses:CSE-1156 CSE-1157
+Name:CSE-23, CourseCount:3, Courses:CSE-1158 CSE-1159 CSE-1160
+Name:CSE-24, CourseCount:3, Courses:CSE-1161 CSE-1162 CSE-1163
+Name:CSE-25, CourseCount:2, Courses:CSE-1164 CSE-1165
+Name:CSE-26, CourseCount:3, Courses:CSE-1166 CSE-1167 CSE-1168
+Name:CSE-27, CourseCount:3, Courses:CSE-1169 CSE-1170 CSE-1171
+Name:CSE-28, CourseCount:2, Courses:CSE-1172 CSE-1173
+Name:CSE-29, CourseCount:3, Courses:CSE-1174 CSE-1175 CSE-1176
+Name:CSE-30, CourseCount:3, Courses:CSE-1177 CSE-1178 CSE-1179
+Name:CSE-31, CourseCount:3, Courses:CSE-1180 CSE-1181 CSE-1182
+Name:CSE-32, CourseCount:2, Courses:CSE-1183 CSE-1184
+Name:CSE-33, CourseCount:3, Courses:CSE-1185 CSE-1186 CSE-1187
+Name:CSE-34, CourseCount:3, Courses:CSE-1188 CSE-1189 CSE-1190
+Name:CSE-35, CourseCount:2, Courses:CSE-1191 CSE-1192
+Name:CSE-36, CourseCount:3, Courses:CSE-1193 CSE-1194 CSE-1195
+Name:CSE-37, CourseCount:3, Courses:CSE-1196 CSE-1197 CSE-1198
+Name:CSE-38, CourseCount:2, Courses:CSE-1199 CSE-1200
+Name:CSE-39, CourseCount:3, Courses:CSE-1201 CSE-1202 CSE-1203
+Name:CSE-40, CourseCount:3, Courses:CSE-1204 CSE-1205 CSE-1206
+Name:CSE-41, CourseCount:3, Courses:CSE-1207 CSE-1208 CSE-1209
+Name:CSE-42, CourseCount:2, Courses:CSE-1210 CSE-1211
+Name:CSE-43, CourseCount:3, Courses:CSE-1212 CSE-1213 CSE-1214
+Name:CSE-44, CourseCount:3, Courses:CSE-1215 CSE-1216 CSE-1217
+Name:CSE-45, CourseCount:2, Courses:CSE-1218 CSE-1219
+Name:CSE-46, CourseCount:3, Courses:CSE-1220 CSE-1221 CSE-1222
+Name:CSE-47, CourseCount:3, Courses:CSE-1223 CSE-1224 CSE-1225
+Name:CSE-48, CourseCount:2, Courses:CSE-1226 CSE-1227
+Name:CSE-49, CourseCount:3, Courses:CSE-1228 CSE-1229 CSE-1230
+Name:CSE-50, CourseCount:3, Courses:CSE-1231 CSE-1232 CSE-1233

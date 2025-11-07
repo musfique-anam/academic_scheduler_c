@@ -1,3 +1,50 @@
-Code:CSE-1101, Name:Data Structures, Credit:3, IsLab:No, Teacher:Nahid Hasan
-Code:CSE-1102, Name:Algorithms, Credit:3, IsLab:No, Teacher:Md Arif Hasan
-Code:CSE-1103, Name:Programming, Credit:3, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-1104, Name:Computer Fundamentals, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-1105, Name:Discrete Mathematics, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-1106, Name:Digital Logic Design, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-1107, Name:Digital Logic Design Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-1201, Name:Object Oriented Programming, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-1202, Name:Object Oriented Programming Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-1203, Name:Data Communication, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-1204, Name:Database Systems, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-1205, Name:Database Systems Lab, Credit:1.5, IsLab:Yes, Teacher:Nahid Hasan
+Code:CSE-1206, Name:Operating Systems, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-1207, Name:Operating Systems Lab, Credit:1.5, IsLab:Yes, Teacher:Nahid Hasan
+Code:CSE-2101, Name:Microprocessors, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-2102, Name:Microprocessors Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-2103, Name:Computer Networks, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-2104, Name:Computer Networks Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-2105, Name:Software Engineering, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-2106, Name:Software Engineering Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-2201, Name:Computer Architecture, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-2202, Name:Artificial Intelligence, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-2203, Name:Artificial Intelligence Lab, Credit:1.5, IsLab:Yes, Teacher:Nahid Hasan
+Code:CSE-2204, Name:Machine Learning, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-2205, Name:Machine Learning Lab, Credit:1.5, IsLab:Yes, Teacher:Nahid Hasan
+Code:CSE-2206, Name:Web Programming, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-2207, Name:Web Programming Lab, Credit:1.5, IsLab:Yes, Teacher:Nahid Hasan
+Code:CSE-3101, Name:Compiler Design, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-3102, Name:Compiler Design Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-3103, Name:Computer Graphics, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-3104, Name:Computer Graphics Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-3105, Name:Simulation and Modeling, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-3106, Name:Simulation and Modeling Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-3201, Name:Cyber Security, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-3202, Name:Data Mining, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-3203, Name:Data Mining Lab, Credit:1.5, IsLab:Yes, Teacher:Nahid Hasan
+Code:CSE-3204, Name:Cloud Computing, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-3205, Name:Cloud Computing Lab, Credit:1.5, IsLab:Yes, Teacher:Nahid Hasan
+Code:CSE-3206, Name:Human Computer Interaction, Credit:3, IsLab:No, Teacher:Md Arif Hasan
+Code:CSE-3207, Name:Mobile App Development, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-3208, Name:Mobile App Development Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-4101, Name:Neural Networks, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-4102, Name:Neural Networks Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-4103, Name:Natural Language Processing, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-4104, Name:Natural Language Processing Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-4105, Name:Digital Image Processing, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-4106, Name:Digital Image Processing Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-4107, Name:Embedded Systems, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-4108, Name:Embedded Systems Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-4201, Name:Deep Learning, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-4202, Name:Deep Learning Lab, Credit:1.5, IsLab:Yes, Teacher:Md Arif Hasan
+Code:CSE-4203, Name:Research Methodology, Credit:3, IsLab:No, Teacher:Nahid Hasan
+Code:CSE-4204, Name:Final Year Project, Credit:6, IsLab:Yes, Teacher:Md Arif Hasan
